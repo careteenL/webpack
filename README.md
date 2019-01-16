@@ -29,7 +29,7 @@ npm i -g @careteen/webpack
 
 命令行使用
 ```shell
-npx careteen-webpack
+npx careteen-pack
 ```
 
 js使用
@@ -45,3 +45,4 @@ js使用
 
 - [原生webpack使用例子](./examples/primary-simple)
 - [简单使用例子](./examples/my-simple)
+- [loader使用例子](./examples/my-loader)
