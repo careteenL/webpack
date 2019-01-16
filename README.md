@@ -14,7 +14,7 @@
 - [ ] 多文件入口/出口
 - [x] 支持`require`导入方式
 - [ ] 支持`ESModule`导入方式
-- [ ] 支持`loaders`
+- [x] 支持`loaders`
 - [ ] 完善生命周期
 - [ ] 支持`plugins`
 
