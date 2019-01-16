@@ -1,0 +1,28 @@
+{
+  "name": "@careteen/webpack",
+  "version": "0.1.0",
+  "description": "Learn and copy write webpack",
+  "main": "index.js",
+  "bin": {
+    "@careteen-webpack": "./bin/www.js",
+    "@careteen-pack": "./bin/www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/careteenL/webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "bundle",
+    "module"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/careteenL/webpack/issues"
+  },
+  "homepage": "https://github.com/careteenL/webpack#readme"
+}
