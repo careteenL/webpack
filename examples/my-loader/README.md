@@ -1,4 +1,4 @@
-# 简单使用例子
+# loader使用例子
 
 ## 快速使用
 
@@ -20,4 +20,4 @@ npx careteen-webpack
 npx webpack
 ```
 
-- 然后运行`dist/bundle.js`
+- 然后运行在浏览器打开`dist/index.html`
