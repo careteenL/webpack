@@ -16,7 +16,7 @@
 - [ ] 支持`ESModule`导入方式
 - [x] 支持`loaders`
 - [ ] 完善生命周期
-- [ ] 支持`plugins`
+- [x] 支持`plugins`
 
 ## 快速使用
 
