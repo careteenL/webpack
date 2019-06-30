@@ -1,4 +1,4 @@
-# [webpack](https://github.com/careteenL/webpack)
+# [@careteen/webpack](https://github.com/careteenL/webpack)
 [![](https://img.shields.io/badge/Powered%20by-webpack-brightgreen.svg)](https://github.com/careteenL/webpack)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/careteenL/webpack/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/careteenL/webpack.svg?branch=master)](https://travis-ci.org/careteenL/webpack)
@@ -34,12 +34,13 @@ npx careteen-pack
 
 js使用
 ```js
-// todo ...
+// TODO ...
 ```
 
 ## 使用文档
 
-- [对该库的源码解析](xxx)
+- TODO
+  - [对该库的源码解析](xxx)
 
 ## 使用例子
 
