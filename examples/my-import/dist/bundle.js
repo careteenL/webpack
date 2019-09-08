@@ -19,15 +19,27 @@
     return module.exports;
   }
   // 提供一个入口  ejs
-  return __webpack_require__("<%-entryId%>");
+  return __webpack_require__("./src/index.js");
 })
 ( // 参数是一个对象
   {
-    <%for(let key in modules){%>
-    "<%-key%>":
+    
+    "./src/index.js":
       (function (module, exports, __webpack_require__) {
-        eval(`<%-modules[key]%>`);
+        eval(`let str = __webpack_require__("./src/b.js");
+
+console.log(str);`);
       }),
-    <%}%>
+    
+    "./src/b.js":
+      (function (module, exports, __webpack_require__) {
+        eval(`module.exports = __webpack_require__("./src/base/a.js");`);
+      }),
+    
+    "./src/base/a.js":
+      (function (module, exports, __webpack_require__) {
+        eval(`module.exports = 'Careteen v Lanlan';`);
+      }),
+    
   }
 );
